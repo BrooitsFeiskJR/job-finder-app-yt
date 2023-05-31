@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivWelcomeScreen"
+        android:layout_marginTop="@dimen/image_welcome_screen_margin_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/custom_image_crop_background"
+        />
+
+    <TextView
+        android:id="@+id/tvTitleWelcomeScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/ivWelcomeScreen"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/tv_title_welcome_screen"
+        android:textSize="@dimen/text_title_welcome_screen_size"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/textColor"
+        />
+
+    <TextView
+        android:id="@+id/tvSubTitleWelcomeScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvTitleWelcomeScreen"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/tv_sub_title_welcome_screen_margin_top"
+        android:text="@string/tv_sub_title_welcome_screen"
+        android:textAlignment="center"
+        android:textSize="@dimen/text_sub_title_welcome_screen_size"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvSubTitleWelcomeScreen"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/custom_button_background"
+        android:layout_margin="@dimen/login_button_welcome_screen_margin_top"
+        android:padding="@dimen/login_button_welcome_screen_padding"
+        android:text="@string/sign_in"
+        android:textSize="@dimen/btn_login_text_size"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

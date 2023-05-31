@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragments.RegisterFragment">
+
+    <TextView
+        android:id="@+id/tvTitleRegisterScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_title_register_screen"
+        android:textSize="@dimen/text_title_register_screen_size"
+        android:textColor="@color/textColor"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/text_title_register_screen_margin_top"
+        />
+
+    <!-- NAME SESSION !-->
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvTitleRegisterScreen"
+        app:layout_constraintStart_toStartOf="@id/tilEmail"
+        android:text="@string/Name"
+        android:textSize="@dimen/tv_name_text_size_register_screen"
+        android:layout_marginTop="@dimen/tv_name_register_screen_margin_top"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvName"
+        android:layout_marginTop="@dimen/tv_til_margin_top_register_screen"
+        android:layout_marginStart="@dimen/margin_side_register_screen"
+        android:layout_marginEnd="@dimen/margin_side_register_screen"
+        >
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="text"
+            android:hint="@string/your_name"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- EMAIL SESSION !-->
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tilName"
+        app:layout_constraintStart_toStartOf="@id/tilEmail"
+        android:text="@string/email"
+        android:textSize="@dimen/tv_register_screen_text_size"
+        android:layout_marginTop="@dimen/tv_register_screen_margin_top"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvEmail"
+        android:layout_marginTop="@dimen/tv_til_margin_top_register_screen"
+        android:layout_marginStart="@dimen/margin_side_register_screen"
+        android:layout_marginEnd="@dimen/margin_side_register_screen"
+        >
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="text"
+            android:hint="@string/your_email"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- PASSWORD SESSION !-->
+
+    <TextView
+        android:id="@+id/tvPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tilEmail"
+        app:layout_constraintStart_toStartOf="@id/tilEmail"
+        android:text="@string/password"
+        android:textSize="@dimen/tv_register_screen_text_size"
+        android:layout_marginTop="@dimen/tv_register_screen_margin_top"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvPassword"
+        android:layout_marginTop="@dimen/tv_til_margin_top_register_screen"
+        android:layout_marginStart="@dimen/margin_side_register_screen"
+        android:layout_marginEnd="@dimen/margin_side_register_screen"
+        >
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="text"
+            android:hint="@string/your_password"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- PHONE NUMBER SESSION !-->
+
+    <TextView
+        android:id="@+id/tvPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tilPassword"
+        app:layout_constraintStart_toStartOf="@id/tilEmail"
+        android:text="@string/phone"
+        android:textSize="@dimen/tv_name_text_size_register_screen"
+        android:layout_marginTop="@dimen/tv_register_screen_margin_top"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvPhoneNumber"
+        android:layout_marginTop="@dimen/tv_til_margin_top_register_screen"
+        android:layout_marginStart="@dimen/margin_side_register_screen"
+        android:layout_marginEnd="@dimen/margin_side_register_screen"
+        >
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="text"
+            android:hint="@string/your_phone"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/custom_button_background"
+        android:layout_marginStart="@dimen/login_button_welcome_screen_margin_top"
+        android:layout_marginEnd="@dimen/login_button_welcome_screen_margin_top"
+        android:layout_marginBottom="@dimen/btn_create_register_screen_margin_bottom"
+        android:padding="@dimen/btn_create_register_screen_padding"
+        android:text="@string/create_btn"
+        android:textSize="@dimen/btn_login_text_size"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
