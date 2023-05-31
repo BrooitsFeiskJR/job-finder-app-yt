@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_welcome_screen_margin_top">60dp</dimen>
+    <dimen name="text_title_welcome_screen_size">25sp</dimen>
+    <dimen name="text_sub_title_welcome_screen_size">12sp</dimen>
+    <dimen name="tv_sub_title_welcome_screen_margin_top">12sp</dimen>
+    <dimen name="login_button_welcome_screen_margin_top">40dp</dimen>
+    <dimen name="login_button_welcome_screen_padding">18sp</dimen>
+    <dimen name="btn_login_text_size">20sp</dimen>
+    <dimen name="text_title_register_screen_size">40sp</dimen>
+    <dimen name="text_title_register_screen_margin_top">20dp</dimen>
+    <dimen name="tv_name_register_screen_margin_top">30dp</dimen>
+    <dimen name="tv_name_text_size_register_screen">16sp</dimen>
+    <dimen name="margin_side_register_screen">20dp</dimen>
+    <dimen name="tv_til_margin_top_register_screen">5dp</dimen>
+    <dimen name="tv_register_screen_margin_top">30dp</dimen>
+    <dimen name="tv_register_screen_text_size">16sp</dimen>
+    <dimen name="btn_create_register_screen_margin_bottom">65dp</dimen>
+    <dimen name="btn_create_register_screen_padding">18dp</dimen>
+    <dimen name="tv_text_login_screen_size">32sp</dimen>
+    <dimen name="tv_title_login_screen">25dp</dimen>
+    <dimen name="tv_text_sub_title_login_screen">20sp</dimen>
+    <dimen name="tv_text_login_screen_margin_top">12dp</dimen>
+</resources>

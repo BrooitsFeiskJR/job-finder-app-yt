@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">job-finder-yt</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tv_title_welcome_screen">Conecte-se ao seu futuro profissional</string>
+    <string name="tv_sub_title_welcome_screen">Encontre as melhores oportunidades\n de emprego ao seu alcance.</string>
+    <string name="sign_in">Entrar</string>
+    <string name="tv_title_register_screen">Crie sua conta</string>
+    <string name="Name">Nome</string>
+    <string name="your_name">Seu nome</string>
+    <string name="email">Email</string>
+    <string name="your_email">Seu email</string>
+    <string name="password">Senha</string>
+    <string name="your_password">Sua senha</string>
+    <string name="phone">Telefone</string>
+    <string name="your_phone">Seu telefone</string>
+    <string name="create_btn">Criar</string>
+    <string name="tv_text_login_screen">Bem vindo de volta</string>
+    <string name="tv_text_sub_title">Sentimos sua falta</string>
+    <string name="text_view_create_account">Não tem uma conta? Registre-se agora</string>
+</resources>

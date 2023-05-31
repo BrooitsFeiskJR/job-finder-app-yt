@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tvPhoneNumber" type="id" />
+    <item name="etPassword" type="id" />
+    <item name="tilPassword" type="id" />
+    <item name="tvPassword" type="id" />
+    <item name="tilEmail" type="id" />
+    <item name="etEmail" type="id" />
+    <item name="tvEmail" type="id" />
+    <item name="tilName" type="id" />
+    <item name="etName" type="id" />
+    <item name="tvName" type="id" />
+    <item name="tvTitleRegisterScreen" type="id" />
+    <item name="tilPhoneNumber" type="id" />
+    <item name="etPhoneNumber" type="id" />
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "201587162585",
+    "project_id": "job-finder-a334f",
+    "storage_bucket": "job-finder-a334f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201587162585:android:8d2fec653136c40b0fadc8",
+        "android_client_info": {
+          "package_name": "dev.tontech.job_finder_yt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn91r6moVF0yESrATAgOtjxak-mlQQWyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
