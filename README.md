@@ -23,10 +23,7 @@ Para utilizar este tutorial, siga os passos abaixo:
 
 1. Clone ou faça o download deste repositório para a sua máquina local.
 2. Abra o projeto no Android Studio.
-3. Siga o vídeo tutorial disponível [aqui](https://www.youtube.com/watch?v=hlpLHx2XFCc) para implementar a autenticação de usuários com o Firebase.
-Ao final do tutorial, você terá um aplicativo Android funcional com autenticação de usuários.
-Recursos adicionais
-Além do vídeo tutorial, este repositório também contém outros recursos que podem ser úteis:
+3. Siga o vídeo tutorial disponível [aqui](https://www.youtube.com/watch?v=hlpLHx2XFCc)
 
 ## Contribuição
 A construção desse aplicativo foi baseada em um desafio, para mais detalhes clique [aqui](https://sintaxe.netlify.app/topicos/aproposta). Caso você identifique algum problema, bug ou tenha sugestões de melhorias, fique à vontade para contribuir com este projeto através de pull requests.
