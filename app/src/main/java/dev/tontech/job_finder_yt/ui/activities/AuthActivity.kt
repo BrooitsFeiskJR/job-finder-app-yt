@@ -1,15 +1,15 @@
-package dev.tontech.job_finder_yt.ui
+package dev.tontech.job_finder_yt.ui.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import dev.tontech.job_finder_yt.databinding.ActivityMainBinding
+import dev.tontech.job_finder_yt.databinding.ActivityAuthBinding
 
-class MainActivity : AppCompatActivity() {
-    private var binding: ActivityMainBinding? = null
+class AuthActivity : AppCompatActivity() {
+    private var binding: ActivityAuthBinding? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivityAuthBinding.inflate(layoutInflater)
         setContentView(binding?.root)
     }
 
