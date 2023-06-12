@@ -1,5 +1,6 @@
 package dev.tontech.job_finder_yt.ui.fragments
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -15,8 +16,9 @@ import androidx.navigation.NavController
 import androidx.navigation.findNavController
 import dev.tontech.job_finder_yt.LoginUiState
 import dev.tontech.job_finder_yt.R
-import dev.tontech.job_finder_yt.data.AuthViewModel
+import dev.tontech.job_finder_yt.data.viewModels.AuthViewModel
 import dev.tontech.job_finder_yt.databinding.FragmentLoginBinding
+import dev.tontech.job_finder_yt.ui.activities.HomeActivity
 import kotlinx.coroutines.launch
 
 class LoginFragment : Fragment() {
@@ -43,7 +45,10 @@ class LoginFragment : Fragment() {
                 vm.authUiState.collect {state ->
                     when(state) {
                         LoginUiState.LOADING -> Log.d(TAG, "LOADING")
-                        LoginUiState.SUCCESS -> Log.d(TAG, "SUCCESS")
+                        LoginUiState.SUCCESS -> {
+                            startActivity(Intent(requireContext(), HomeActivity::class.java))
+                            requireActivity().finish()
+                        }
                         LoginUiState.ERROR -> Log.d(TAG, "ERROR")
                     }
                 }

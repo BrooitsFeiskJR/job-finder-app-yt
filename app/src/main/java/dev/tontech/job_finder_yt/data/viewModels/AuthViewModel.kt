@@ -1,4 +1,4 @@
-package dev.tontech.job_finder_yt.data
+package dev.tontech.job_finder_yt.data.viewModels
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

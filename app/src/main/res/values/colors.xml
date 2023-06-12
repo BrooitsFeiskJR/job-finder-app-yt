@@ -3,5 +3,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="buttonBackgroundColor">#835DEE</color>
+    <color name="buttonBackgroundSuggestionColor">#3255F1</color>
     <color name="textColor">#1F2C53</color>
+    <color name="backgroundColor">#ECECEC</color>
+    <color name="secondaryTextColor">#767676</color>
 </resources>

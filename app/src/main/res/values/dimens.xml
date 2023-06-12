@@ -21,4 +21,6 @@
     <dimen name="tv_title_login_screen">25dp</dimen>
     <dimen name="tv_text_sub_title_login_screen">20sp</dimen>
     <dimen name="tv_text_login_screen_margin_top">12dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="item_spacing">16dp</dimen>
 </resources>

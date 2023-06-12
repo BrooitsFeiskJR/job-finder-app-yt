@@ -15,6 +15,9 @@
         android:theme="@style/Theme.Jobfinderyt"
         tools:targetApi="31">
         <activity
+            android:name=".ui.activities.HomeActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.activities.AuthActivity"
             android:exported="true">
             <intent-filter>

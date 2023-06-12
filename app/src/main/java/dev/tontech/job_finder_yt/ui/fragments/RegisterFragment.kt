@@ -11,7 +11,7 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import dev.tontech.job_finder_yt.LoginUiState
-import dev.tontech.job_finder_yt.data.AuthViewModel
+import dev.tontech.job_finder_yt.data.viewModels.AuthViewModel
 import dev.tontech.job_finder_yt.databinding.FragmentRegisterBinding
 import kotlinx.coroutines.launch
 

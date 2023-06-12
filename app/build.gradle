@@ -67,4 +67,13 @@ dependencies {
 
     // Real time database
     implementation 'com.google.firebase:firebase-database-ktx'
+
+    // Live Data import
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.6.1"
+
+    // Firebase Storage
+    implementation 'com.google.firebase:firebase-storage-ktx'
+
+    // Picasso library for handle with image download
+    implementation 'com.squareup.picasso:picasso:2.8'
 }
